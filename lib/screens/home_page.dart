@@ -15,15 +15,15 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         children: [
           SizedBox(height: 30,),
-          Center(
-            child: Text(
-              'آج کی آیت',
-              style: GoogleFonts.jomhuria(textStyle: TextStyle(
-                color: Color(0xff754A37),
-                fontSize: 50,
-              ),),
-            ),
-          ),
+          // Center(
+          //   child: Text(
+          //     'آج کی آیت',
+          //     style: GoogleFonts.jomhuria(textStyle: TextStyle(
+          //       color: Color(0xff754A37),
+          //       fontSize: 50,
+          //     ),),
+          //   ),
+          // ),
           Container(
             margin: EdgeInsets.only(left: 150,top: 10),
             child: Text(
