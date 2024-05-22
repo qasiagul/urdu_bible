@@ -11,11 +11,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    List<Widget> imageList = [
-      Image.asset('images/1.jpg'),
-      Image.asset('images/2.jpg'),
-      Image.asset('images/3.jpg'),
-    ];
     return Scaffold(
       body: Column(
         children: [
@@ -52,16 +47,6 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           SizedBox(height: 20,),
-          CarouselSlider(
-            items: imageList,
-            carouselController: CarouselController(),
-            options: CarouselOptions(
-              autoPlay: true,
-              enlargeCenterPage: true,
-              aspectRatio: 16/9,
-              viewportFraction: 0.8,
-            ),
-          ),
 
         ],
       ),
